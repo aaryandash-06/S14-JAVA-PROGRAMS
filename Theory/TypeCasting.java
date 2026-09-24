@@ -1,4 +1,4 @@
-package PSPJProject;
+package Theory;
 public class TypeCasting {
 
     public static void main(String[] args) {
