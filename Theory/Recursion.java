@@ -13,5 +13,6 @@ public class Recursion {
         System.out.println("Enter number: ");
         int x = sc.nextInt();
         System.out.println("The factorial is: " + factorial(x));
+        sc.close();
     }
 }

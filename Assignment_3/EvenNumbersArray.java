@@ -14,6 +14,7 @@ public class EvenNumbersArray {
                 System.out.println("Even number are: " + num[i]);
             }
             }
+        sc.close();
         }
     }
 

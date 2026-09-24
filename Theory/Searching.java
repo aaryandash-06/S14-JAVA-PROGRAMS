@@ -17,5 +17,6 @@ public class Searching {
          if(!found){
             System.out.println("It is not available in array");
          }
+         sc.close();
     }
 }
