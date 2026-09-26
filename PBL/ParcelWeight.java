@@ -11,7 +11,6 @@ public class ParcelWeight {
             }else{
                 System.out.println("Invalid weight" + ", enter a positive number less than 50");
             }
-           
         }
         catch(NumberFormatException e){
             System.out.println("Invalid weight" + ", please enter a number");
