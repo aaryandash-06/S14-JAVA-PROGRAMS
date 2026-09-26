@@ -6,7 +6,12 @@ public class ParcelWeight {
         try{
             System.out.print("Enter parcel weight: ");
             double weight = Double.parseDouble(sc.nextLine());
-            System.out.println("Weight Accepted: " + weight + " kg");
+            if(weight > 0 && weight < 50){
+                System.out.println("Weight Accepted: " + weight + " kg");
+            }else{
+                System.out.println("Invalid weight" + ", enter a positive number less than 50");
+            }
+           
         }
         catch(NumberFormatException e){
             System.out.println("Invalid weight" + ", please enter a number");
